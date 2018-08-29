@@ -1,0 +1,37 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+
+body{ font-size:12px; line-height:24px; font-family: "微软雅黑", Tahoma, Arial, SimSun, "宋体", "Microsoft YaHei", SimHei, "黑体"; background:#fff; color:#333; -webkit-text-size-adjust:100%;}
+
+fieldset,img { border:0;}
+
+ol,ul,li { list-style:none;}
+
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal;}
+
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:normal;font-weight:normal; outline:none;}
+
+input,button,textarea,select{*font-size:100%;}
+
+textarea { resize:none;}
+
+i, em, strong { font-style:normal;}
+
+/* 定位 */
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden;}
+
+.clearfix{ display:inline-block;}
+
+*html .clearfix { height:1%;}
+
+.clearfix { display:block;}
+
+.zoom { zoom:1;}
+
+.fl { float: left; }
+
+.fr { float: right; }
+
+img {
+  width: 100%;
+  height: auto;
+}
