@@ -1,4 +1,4 @@
-body {
+#body1000 {
   background: url(../images/banner.png) no-repeat #f2faff;
   background-size:contain;
 }
@@ -59,7 +59,7 @@ body {
   height: 100%;
 }
 
-.carousel-ul .carousel-item p {
+.carousel-ul .carousel-texts{
   position: absolute;
   padding-left: 25px;
   left: 0;
@@ -83,7 +83,7 @@ body {
   cursor: pointer;
 }
 
-.points li {
+.points-lists {
   display: inline-block;
   vertical-align: middle;
   margin: 0 5px;
@@ -93,7 +93,7 @@ body {
   background-color: #fff;
 }
 
-.points li.active {
+.points-lists.active {
   width: 12px;
   height: 12px;
   background-color: #005389;
@@ -113,7 +113,7 @@ body {
   border-bottom: 1px solid #ccc;
 }
 
-.notice .notice-teb>div {
+.notice .notice-tebs {
   float: left;
   width: 120px;
   height: 50px;
@@ -126,15 +126,15 @@ body {
   cursor: pointer;
 }
 
-.notice .notice-teb>div.active {
+.notice .notice-tebs.active {
   height: 51px;
   color: #005389;
   border-bottom: 2px solid #005389;
 }
 
-.notice-vol ul { display: none; }
+.notice-vol .vol-items { display: none; }
 
-.notice-vol ul.active { display: block; }
+.notice-vol ul.vol-items.active { display: block; }
 
 .notice .vol-intro {
   margin-top: 8px;
@@ -142,14 +142,14 @@ body {
   overflow: auto;
 }
 
-.notice .vol-intro li { padding-top: 20px; }
+.notice .vol-intro .intro-items { padding-top: 20px; }
 
-.notice .vol-intro span { 
+.intro-items>span { 
   width: 65px;
   font-size: 16px;
   color: #000;
 }
-.notice .vol-intro p {
+.intro-items>p {
   width: 330px;
   font-size: 16px;
   color: #666;
@@ -164,7 +164,7 @@ body {
 
 .notice .vol-report .last { border-bottom: none;}
 
-.notice .vol-report a {
+.notice .report-lists{
   overflow:hidden;
   float: left;
   width: 350px;
@@ -174,7 +174,7 @@ body {
   text-decoration: none;
 }
 
-.notice .vol-report span { float: right; }
+.notice .vol-report .report-times { float: right; }
 
 .live { margin-top: 40px;}
 
@@ -199,7 +199,7 @@ body {
   background-color: #005389;
 }
 
-.live-teb .teb-list>img {
+.live-teb .teb-imgs {
   vertical-align: middle;
   width: auto;
   height: 24px;
@@ -218,7 +218,7 @@ body {
   margin-left: 20px;
   cursor: pointer;
 }
-.text-hd .refresh img {
+.text-hd .refresh-img {
   width: 16px;
   height: 14px;
   vertical-align: middle;
@@ -237,11 +237,11 @@ body {
   border: 1px solid #ccc;
   cursor: pointer;
 }
-.refresh-text span {
+.refresh-text .refresh-texts {
   width: 50%;
   text-align: center;
 }
-.refresh-text span.active { 
+.refresh-text  .refresh-texts.active { 
   color: #fff;
   background-color: #005389;
 }
@@ -286,14 +286,14 @@ body {
 .hd-nickname {
   height: 35px;
 }
-.text-bd .text-item p {
+.text-item .contents-lists {
   position: relative;
   padding:15px 18px;
   font-size: 14px;
   background-color: #e8eff4;
   border-radius: 3px;
 }
-.text-bd .text-item p::after {
+.text-item .contents-lists::after {
   content: '';
   position: absolute;
   top: 15px;
@@ -301,11 +301,11 @@ body {
   border: 8px solid #fff;
   border-right: 8px solid #e8eff4;
 }
-.live-content>div { display: none;}
+.live-content .live-items { display: none;}
 
-.live-content>div.active {display: block;}
+.live-content .live-items.active {display: block;}
 
-.text-bd .text-item>img {
+.text-bd .text-item .text-item-logo{
   position: absolute;
   background-color: #fff;
   z-index: 2;
@@ -315,7 +315,7 @@ body {
   height: 22px;
 }
 
-.live-play h2 {
+.live-play #current-play {
    margin-top: 10px;
    height: 55px;
    line-height: 55px;
@@ -344,12 +344,12 @@ body {
  height: 212px;
  border: 1px solid #ccc;
 }
-.pic-list .pic-items>img {
+.pic-list .pic-items .pic-items-img {
   width: 100%;
   height: 164px;
   cursor: pointer;
 }
-.pic-list .pic-items>p {
+.pic-list .pic-items .pic-items-text{
   width: 100%;
   padding: 0 10px;
   font-size: 16px;
@@ -384,7 +384,7 @@ body {
   position: absolute;
   width: 1200%;
 }
-.focus-img .img-list img { 
+.focus-img .img-list .img-items { 
   width: 100%;
   height: 100%;
  }
@@ -394,11 +394,11 @@ body {
   width: 770px;
   height: 500px; 
 }
-.img-list .img-items>img {
+.img-list .img-items>.img-items-banner {
   width: 100%;
   height: auto;
 }
-.img-list .img-items>h1 {
+.img-list .img-items>.img-items-text {
   position: absolute;
   bottom: 20px;
   left: 0;
@@ -458,14 +458,14 @@ body {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
 }
-.point-box>img {
+.point-box>.points-imgs {
   width: 90px;
   height: 70px;
   margin: 25px 15px;
   border: 3px solid transparent;
   cursor: pointer;
 }
-.point-box img.active {
+.point-box .points-imgs.active {
   border: 3px solid #005389;
 }
 
